@@ -1,0 +1,47 @@
+button {   
+       background-color: #2b632d;   
+       width: 100%;  
+        color: orange;   
+        padding: 1.5rem;
+        margin: 1rem 0rem;   
+        border: none;   
+        cursor: pointer;   
+        font-size: medium;
+         }   
+label{
+    font-size: medium;
+}
+ form {   
+        border: 0.3rem solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 0.8rem 0;  
+        padding: 1.2rem 2rem;   
+        display: inline-block;   
+        border: 0.2rem solid green;   
+        box-sizing: border-box;   
+        font-size: medium;
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 1rem 1.8rem;  
+        margin: 1rem 5rem;  
+    }   
+        
+     
+ .container {   
+        margin-left:15rem;
+        margin-right:15rem;
+        padding: 2.5rem;   
+        background-color: lightblue;  
+    }   
+   
+    .loginlabel
+    {
+        font-size: 2.5rem;
+        color:blueviolet
+    }

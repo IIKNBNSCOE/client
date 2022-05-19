@@ -1,0 +1,30 @@
+ul
+{
+    display:flex;
+    list-style:none; 
+    background-color: #2b632d;
+    padding:1rem
+}
+ul li
+{
+   
+    
+    padding-left: 5rem;
+    font-family:'Audiowide';
+    font-size:3rem;
+    
+    
+}
+
+@media(max-width:768px) 
+{
+  ul{
+      height:18rem;
+      flex-direction:column;
+      text-align:center
+   }
+   ul li{
+       padding-top:2rem
+
+   }
+}
