@@ -54,5 +54,5 @@ jobs:
           docker pull ${{secrets.DOCKER_USER}}/tclient
           docker stop clientc
           docker rm clientc
-          docker run --name clientc -p 80:3000 ${{secrets.DOCKER_USER}}/tclient
+          docker run --name clientc -d -p 80:3000 ${{secrets.DOCKER_USER}}/tclient
               
