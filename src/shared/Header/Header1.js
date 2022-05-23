@@ -25,9 +25,9 @@ function Header1() {
              
         </ul>
         <div className="hamburger" onClick={()=>setIsclick(prev=>!prev)}>
-        <div style={{width:"35px",height:"5px",backgroundColor:"blue",margin: "6px 0"}}></div>
-        <div style={{width:"35px",height:"5px",backgroundColor:"blue",margin: "6px 0"}}></div>
-        <div style={{width:"35px",height:"5px",backgroundColor:"blue",margin: "6px 0"}}></div>
+        <div style={{width:"35px",height:"5px",backgroundColor:"brown",margin: "6px 0"}}></div>
+        <div style={{width:"35px",height:"5px",backgroundColor:"brown",margin: "6px 0"}}></div>
+        <div style={{width:"35px",height:"5px",backgroundColor:"brown",margin: "6px 0"}}></div>
         </div>
     </div>
   )
