@@ -22,7 +22,7 @@ function Ticket() {
     {
         e.preventDefault()
         dispatch(logout())
-        navigate("../login",{replace:true})
+        navigate("../",{replace:true})
 
     }
     const TicketHandler=(e)=>

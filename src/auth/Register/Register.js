@@ -48,7 +48,7 @@ function Register() {
     <div>
       
       <span className='loginlabel'>Registration Form</span>
-       <div class="container">   
+       <div className="container">   
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username" value={username} onChange={(e)=>setUsername(e.target.value)}/>  
             <h4 style={{color:"red"}}>{errorusername}</h4>
@@ -66,7 +66,7 @@ function Register() {
               setEmail("cd@xz.com")
               setMessage("")
             }}> Cancel</button>   
-              <h3 style={{color:"red"}}>{message}</h3>
+              <div style={{color:"red",fontSize:"2rem"}}>{message}</div>
         </div>
       
         </div>   

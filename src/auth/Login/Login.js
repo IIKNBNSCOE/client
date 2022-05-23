@@ -55,7 +55,7 @@ export function Login() {
     return (
     <div>
       
-       <h1>Login Form</h1>
+      <span className='loginlabel' style={{fontsize:"2.5rem", color:"blueviolet"}}>Login Form</span>
        <div className="container">   
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username"  value={username} onChange={(e)=>{
@@ -72,7 +72,7 @@ export function Login() {
               setPassword("b")
               setMessage("")
             }} > Cancel</button>   
-            <h4 style={{color:"red"}}>{message}</h4>
+            <h4 style={{color:"red",fontSize:"2rem"}}>{message}</h4>
         </div>
         </div>   
    

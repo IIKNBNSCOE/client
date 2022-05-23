@@ -22,11 +22,12 @@ const dispatch=useDispatch();
           <BrowserRouter>
           <Header1/>
            <Routes>
-               
+               {uname!==""&&<Route exact path="/" element={<Ticket/>}/>}
                <Route exact path="/" element={<Home/>}/>
                <Route exact path="/login" element={<Login/>}/>
                <Route exact path="/register" element={<Register/>}/>
-               {uname!=''&&<Route exact path="/ticket" element={<Ticket/>}/>}
+               {uname!==""&&<Route exact path="/ticket" element={<Ticket/>}/>}
+               
                
               
            </Routes>           
