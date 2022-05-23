@@ -48,7 +48,7 @@ export function Login() {
     })  
   } 
   else{
-    setMessage("Please fill up username and password")
+    setMessage("Please fill Username and Password")
   }
   
 }

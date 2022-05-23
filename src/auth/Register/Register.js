@@ -59,7 +59,7 @@ function Register() {
             <input type="text" placeholder="Enter Email Address" name="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>  
             <h4 style={{color:"red"}}>{erroremail}</h4>
             <button type="submit" onClick={register}>Register</button>   
-            <button type="button" class="cancelbtn" onClick={(e)=>
+            <button type="button" className="cancelbtn" onClick={(e)=>
             {
               setUsername("a")
               setPassword("b")
