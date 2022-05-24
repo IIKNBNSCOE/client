@@ -255,8 +255,8 @@ function ShowTicket(props) {
         }}}      
       >
          
-       <label><strong>TicketNo.</strong> </label> {selectedRow.ticket_no}{' '}
-       <label><strong>TicketDesc.</strong> </label> {selectedRow.ticket_desc}
+       <label><strong>TicketNo.{selectedRow.ticket_no}{' '}</strong> </label> 
+       <label><strong>TicketDesc. {selectedRow.ticket_desc}</strong> </label>
       
        <div style={{display:"flex"}}>
        <button onClick={deleteTicketHandler}>Delete</button>
