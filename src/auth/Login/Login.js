@@ -60,11 +60,11 @@ export function Login() {
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username"  value={username} onChange={(e)=>{
               setUsername(e.target.value) }}/>  
-            <h4 style={{color:"red"}}>{errorusername}</h4>
+            <h2 style={{color:"red"}}>{errorusername}</h2>
             <label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password"  value={password} onChange={(e)=>{
               setPassword(e.target.value)}}/>  
-            <h4 style={{color:"red"}}>{errorpassword}</h4>
+            <h2 style={{color:"red"}}>{errorpassword}</h2>
             <button type="submit" onClick={loginHandler}>Login</button>   
             <button type="button" className="cancelbtn" onClick={(e)=>
             {
@@ -72,7 +72,7 @@ export function Login() {
               setPassword("b")
               setMessage("")
             }} > Cancel</button>   
-            <h4 style={{color:"red",fontSize:"2rem"}}>{message}</h4>
+            <h2 style={{color:"red",fontSize:"2rem"}}>{message}</h2>
         </div>
         </div>   
    

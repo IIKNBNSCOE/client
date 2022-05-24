@@ -51,13 +51,13 @@ function Register() {
        <div className="container">   
             <label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="username" value={username} onChange={(e)=>setUsername(e.target.value)}/>  
-            <h4 style={{color:"red"}}>{errorusername}</h4>
+            <h2 style={{color:"red"}}>{errorusername}</h2>
             <label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
-            <h4 style={{color:"red"}}>{errorpassword}</h4>
+            <h2 style={{color:"red"}}>{errorpassword}</h2>
             <label>Email : </label> 
             <input type="text" placeholder="Enter Email Address" name="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>  
-            <h4 style={{color:"red"}}>{erroremail}</h4>
+            <h2 style={{color:"red"}}>{erroremail}</h2>
             <button type="submit" onClick={register}>Register</button>   
             <button type="button" className="cancelbtn" onClick={(e)=>
             {
