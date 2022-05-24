@@ -9,6 +9,7 @@ import {Login} from '../../auth/Login/Login'
 import Register from '../../auth/Register/Register'
 import Ticket from '../../components/Ticket'
 import Home from '../../components/Home'
+import ErrorPage from '../../components/ErrorPage'
 import {getUser} from '../../services/userslice'
 
 function Navigation() {
@@ -26,6 +27,7 @@ const dispatch=useDispatch();
                <Route exact path="/" element={<Home/>}/>
                <Route exact path="/login" element={<Login/>}/>
                <Route exact path="/register" element={<Register/>}/>
+               <Route path="*" element={<ErrorPage/>}/>
                {uname!==""&&<Route exact path="/ticket" element={<Ticket/>}/>}
                
                
