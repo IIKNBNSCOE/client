@@ -50,7 +50,7 @@ function Ticket() {
     
      <div className="content">
        {(uname != "" && uname != undefined)&&<>
-     <h3 onClick={()=>setModelopen(true)} className="tic">Create Ticket1</h3>
+     <h3 onClick={()=>setModelopen(true)} className="tic">Create Ticket</h3>
     <h3 onClick={mlogout} className="log">Logout</h3></>}
     <Modal
         isOpen={modelopen}
