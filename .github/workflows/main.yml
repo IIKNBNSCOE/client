@@ -35,7 +35,7 @@ jobs:
           docker build -t clientapp .
           docker tag clientapp imrankazi90/tclient
           docker login -u ${{secrets.DOCKER_USER}} -p ${{secrets.DOCKER_SECRET}}
-          docker push imrankazi90/tclient
+          docker push imrankazi90/tclient:latest
           
   Deploy:
     needs: build
